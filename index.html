@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="create-btn">
+        <button><img src="/img/note-add.png" /></button>
+      </div>
+      <div class="form">
+        <button class="backToIcon"><img src="/img/backToIcon.png"></button>
+        <div class="create-note">
+          <header>
+            <p>Add a new note</p>
+          </header>
+          <form action="#">
+            <div class="title">
+              <label for="">Title</label>
+              <br />
+              <input type="text" name="title" />
+            </div>
+            <div class="description">
+              <label for="">Description</label>
+              <textarea name="textarea"></textarea>
+              <button type="submit">Add Note</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <h4>Sort By Time</h4>
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider round"></span>
+    </label>
+    <div class="container"></div>
+  </body>
+</html>
